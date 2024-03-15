@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Navbar from './components/navbar/Navbar'
 import './layout.scss'
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
   return (
     <>
-    <h1 className='layout'>Hello World!</h1>
+    <div className='layout'>
+      <Navbar />
+    </div>
     </>
   )
 }
