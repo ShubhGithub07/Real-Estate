@@ -13,22 +13,22 @@
 
 
     @include lg {
-        background-color: #98cbe9;
+        // background-color: #98cbe9;
         max-width: 1280px;
     }
 
     @include md {
-        background-color: #9ddf31;
+        // background-color: #9ddf31;
         max-width: 768px;
     }
 
     @include sm {
-        background-color: #ff0000;
+        // background-color: #ff0000;
         max-width: 640px;
     }
 
     .content {
-        background-color: aquamarine;
+        // background-color: aquamarine;
         flex: 1;
     }
 }
